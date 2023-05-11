@@ -8,7 +8,7 @@
 
 * El programa contiene un archivo server.js, el cual llama a distintas funciones para mostrar, agregar, actualizar y borrar canciones a través de procesos de backend en node.
 
-* Se utiliza un arcchivo Json en la carpeta /public/data/repertorio.json  para almacenar los datos de las canciones agregadas.
+* Se utiliza un archivo Json en la carpeta /public/data/repertorio.json  para almacenar los datos de las canciones agregadas.
 
 * Se ejecuta el programa a través del comando:
 ```
