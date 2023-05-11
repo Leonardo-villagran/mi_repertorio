@@ -3,6 +3,8 @@ const app = express();
 const path = require('path');
 const {principal, leerCanciones, BorrarCancion, editarCancion, insertarCancion} = require('./controllers/funciones');
 
+const port=3001;
+
 //Usar carpeta public
 app.use(express.static('public'));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -19,4 +21,4 @@ app.delete("/canciones/:id", BorrarCancion);
 
 app.put("/canciones/:id", editarCancion);
 
-app.listen(3001, console.log("Servidor encendido!"));
+app.listen(port, console.log(`Servidor encendido en el puerto ${port}!`));
