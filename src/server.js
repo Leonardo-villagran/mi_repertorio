@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const {principal, leerCanciones, BorrarCancion, editarCancion, insertarCancion} = require('./controllers/funciones');
 
-const port=3001;
+const port=3000;
 
 //Usar carpeta public
 app.use(express.static('public'));
