@@ -12,8 +12,11 @@
 
 * Se ejecuta el programa a través del comando:
 
-```Node
+```
 npm run start
+```
+o 
+```
 npm run dev
 ```
 ## Acceso a deploy en web desde :
