@@ -12,7 +12,7 @@
 
 * Notas:
 
-    -Se realiza un ajuste en el style css para que el botón actualizar, solo se vea cuando se esté editando un registro.
+    -Se realiza un ajuste en el style css para que el botón actualizar, solo se vea cuando se esté editando un registro.<br>
     -Se utiliza bootstrap y css para mejorar la estructura de la página.<br>
     -Se Agrega un función que bloquea todos los botones de eliminar, si se está realizando una edición de registro.<br>
     -Se configura la carpeta public a través del modulo path.<br>
