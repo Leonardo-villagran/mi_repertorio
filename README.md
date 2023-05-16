@@ -4,11 +4,20 @@
 
 ## Características:
 
-* El sistema corresponde a un programa que se ejecuta sobre Node js con Express en el puerto 3001.
+* El sistema corresponde a un programa que se ejecuta sobre Node js con Express en el puerto 3000, pero se pueden utilizar variables de entorno para definir el puerto.
 
-* El programa contiene un archivo server.js, el cual llama a distintas funciones para mostrar, agregar, actualizar y borrar canciones a través de procesos de backend en node.
+* El programa contiene un archivo index.js, el cual llama a distintas funciones para mostrar, agregar, actualizar y borrar canciones a través de procesos de backend en node.
 
 * Se utiliza un archivo Json en la carpeta /public/data/repertorio.json  para almacenar los datos de las canciones agregadas.
+
+* Notas:
+
+    -Se realiza un ajuste en el style css para que el botón actualizar, solo se vea cuando se esté editando un registro.
+    -Se utiliza bootstrap y css para mejorar la estructura de la página.
+    -Se Agrega un función que bloquea todos los botones de eliminar, si se está realizando una edición de registro.
+    -Se configura la carpeta public a través del modulo path.
+    -Se almacena el css, los datos de repertorio.json, imágenes y el index.html en la carpeta public. 
+    -Se utiliza una carpeta llamada controllers para almacenar las funciones que contienen los callbacks.
 
 * Se ejecuta el programa a través del comando:
 ```
