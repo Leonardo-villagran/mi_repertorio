@@ -13,11 +13,11 @@
 * Notas:
 
     -Se realiza un ajuste en el style css para que el botón actualizar, solo se vea cuando se esté editando un registro.
-    -Se utiliza bootstrap y css para mejorar la estructura de la página.
-    -Se Agrega un función que bloquea todos los botones de eliminar, si se está realizando una edición de registro.
-    -Se configura la carpeta public a través del modulo path.
-    -Se almacena el css, los datos de repertorio.json, imágenes y el index.html en la carpeta public. 
-    -Se utiliza una carpeta llamada controllers para almacenar las funciones que contienen los callbacks.
+    -Se utiliza bootstrap y css para mejorar la estructura de la página.<br>
+    -Se Agrega un función que bloquea todos los botones de eliminar, si se está realizando una edición de registro.<br>
+    -Se configura la carpeta public a través del modulo path.<br>
+    -Se almacena el css, los datos de repertorio.json, imágenes y el index.html en la carpeta public. <br>
+    -Se utiliza una carpeta llamada controllers para almacenar las funciones que contienen los callbacks.<br>
 
 * Se ejecuta el programa a través del comando:
 ```
