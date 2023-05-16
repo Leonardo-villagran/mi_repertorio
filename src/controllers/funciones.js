@@ -25,7 +25,6 @@ const insertarCancion = (req, res) => {
     const productos = JSON.parse(fs.readFileSync(productosJSON))
     productos.push(producto);
     fs.writeFileSync(productosJSON, JSON.stringify(productos, null, 2));
-    console.log(`Canción insertada de id: ${id} de título: ${titulo} y artista: ${artista}`)
     res.status(201).send(`Canción insertada de id: ${id} de título: ${titulo} y artista: ${artista}`);
 }
 
