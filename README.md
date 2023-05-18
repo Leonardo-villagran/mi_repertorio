@@ -21,11 +21,15 @@
     -Se almacena el css, los datos de repertorio.json, imágenes y el index.html en la carpeta public. <br>
     -Se utiliza una carpeta llamada controllers para almacenar las funciones que contienen los callbacks.<br>
 
-* Se ejecuta el programa a través del comando:
+* Luego de descargar instalar las dependencias y módulos necesarios a través de los comandos:
+```
+npm install
+```
+* Se ejecuta el programa a través de los comandos:
 ```
 npm run start
 ```
-* Para ejecutar el programa en modo de producción (sin debugging) se ejecuta el comando:
+* Para ejecutar el programa en modo de producción (sin debugging) se ejecutan los comandos:
 ```
 npm run dev
 ```
