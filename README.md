@@ -33,3 +33,8 @@ npm run dev
 
 [https://mirepertorio-production.up.railway.app/](https://mirepertorio-production.up.railway.app/)
 
+## Imágenes del deploy:
+
+![https://github.com/Leonardo-villagran/mi_repertorio/blob/main/public/images/01.PNG](https://github.com/Leonardo-villagran/mi_repertorio/blob/main/public/images/01.PNG)
+
+![https://github.com/Leonardo-villagran/mi_repertorio/blob/main/public/images/02.PNG](https://github.com/Leonardo-villagran/mi_repertorio/blob/main/public/images/02.PNG)
