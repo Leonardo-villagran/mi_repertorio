@@ -21,11 +21,10 @@ const leerCanciones = (req, res) => {
 const insertarCancion = (req, res) => {
 
     const producto = req.body;
-    const { id, titulo, artista, tono} = req.body;
     const productos = JSON.parse(fs.readFileSync(productosJSON))
     productos.push(producto);
     fs.writeFileSync(productosJSON, JSON.stringify(productos, null, 2));
-    res.status(201).send(`Canción insertada de id: ${id} de título: ${titulo} y artista: ${artista}`);
+    res.status(201).send(`Canción insertada de id: ${producto.id} de título: ${producto.titulo} y artista: ${producto.artista}`);
 }
 
 //Callback que permite eliminar canción
@@ -41,7 +40,7 @@ const BorrarCancion = (req, res) => {
     }
     productos.splice(index, 1);
     fs.writeFileSync(productosJSON, JSON.stringify(productos, null, 2));
-    console.log(producto);
+    console.log(`Canción elminada de id: ${producto.id} titulo: ${producto.titulo} artista: ${producto.artista}`);
     res.status(200).send(`Canción elminada de id: ${producto.id} titulo: ${producto.titulo} artista: ${producto.artista}`);
 }
 
@@ -57,6 +56,7 @@ const editarCancion = (req, res) => {
     }
     productos[index] = producto
     fs.writeFileSync(productosJSON, JSON.stringify(productos, null, 2))
+    console.log(`Producto de id: ${producto.id} titulo: ${producto.titulo} artista: ${producto.artista} modificado con éxito`);
     res.status(200).send("Producto modificado con éxito")
 }
 
